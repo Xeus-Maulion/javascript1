@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Biography</title>
+</head>
+<body style="font-family: Verdana, Geneva, Tahoma, sans-serif;">
+<center>
+<div style="background-color: rgb(98, 255, 247); padding: 40px;">
+    <img src="student.jpg" alt="student" style="height: 225px; width: 115;">
+        <h2>My Biography</h2>
+        
+        <p id="demo">Hello everyone! My name is Xeus Mauresmo M. Maulion, I was born on April 23, 2005 in Manila. I graduated from Mary Immaculate Parish Special School (MIPSS) and attended the school for fourteen years from Preschool to senior high school. Today, I am facing challenges as an Information and Communication Technology (ICT) strand is chosen and as a student, may be related to experiences using technology and skills or who has learned Beginner Programming, Computer Parts, Web Designer, Photoshop , Video Editing and Intermediate Microsoft Office Skills.</p>
+        
+    <script>
+    function largeFontSize() {
+              document.getElementById("demo").style.fontSize = "large";
+            }
+    function fontSize() {
+              document.getElementById("demo").style.fontSize = "medium";
+            }
+    function smallFontSize() {
+              document.getElementById("demo").style.fontSize = "small";
+            }
+    function textRed() {
+              document.getElementById("demo").style.color="red";
+            }
+    function textBlue() {
+              document.getElementById("demo").style.color="blue";
+            }
+    function textBlack() {
+              document.getElementById("demo").style.color="black";
+    }
+    </script>
+    <div style="margin-top: 5px;">
+    <h4 style="margin-bottom: -1px;">Font Size</h4>
+        <button onclick="smallFontSize()">Small Font Size</button>
+        <button onclick="fontSize()">Medium Font Size</button>
+        <button onclick="largeFontSize()">Large Font Size</button>
+    </div>
+    <div style="margin-top: 5px;">
+    <h4 style="margin-bottom: -1px;">Color Text</h4>
+        <button onclick="textRed()">Text Color Red</button>
+        <button onclick="textBlue()">Text Color Blue</button>
+        <button onclick="textBlack()">Text Color Black</button>
+    </div>
+</div>
+</center>
+</body>
+</html>
